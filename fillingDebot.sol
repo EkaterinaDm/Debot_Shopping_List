@@ -83,7 +83,7 @@ contract fillingDebot is listDebot {
         } else {
             Terminal.print(0, "Your Shopping list is empty");
         }
-        _menu();
+        onSuccess();
     }
 
     function deletePurchase(uint32 index) public {
